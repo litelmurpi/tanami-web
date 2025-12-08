@@ -1,27 +1,3 @@
-# LAPORAN FINAL PROJECT
-## Smart Urban Farming Marketplace
-**(Sistem Transaksi dengan Manajemen Ongkir & Kupon)**
-
----
-
-## 1. Kelompok dan Tema Project
-
-**Identitas Kelompok:**
-
-* **Anggota 1:** [Nama Lengkap] - [NIM]
-* **Anggota 2:** [Nama Lengkap] - [NIM] (jika ada)
-* **Anggota 3:** [Nama Lengkap] - [NIM] (jika ada)
-
-**Tema Project:**
-Smart Urban Farming Marketplace dengan fitur kalkulasi Ongkos Kirim per Kota dan Kode Voucher.
-
-**Sinkronisasi dengan Tugas Pemrograman Web Lanjut:**
-Project ini mengimplementasikan sistem *e-commerce* berbasis web (Laravel/PHP Native) yang berfokus pada logika bisnis transaksi. Kompleksitas sistem terletak pada penanganan variabel biaya dinamis (ongkir berdasarkan wilayah tujuan) dan logika pemotongan harga (manajemen kupon diskon), serta relasi database antar entitas yang mendukung fitur tersebut.
-
----
-
-## 2. Abstraksi Sistem Informasi
-
 ### Deskripsi Sistem
 Smart Urban Farming Marketplace adalah platform jual-beli produk pertanian urban yang menghubungkan petani lokal dengan konsumen. Sistem ini dirancang untuk menangani transaksi semi-otomatis dimana sistem mampu menghitung total belanjaan secara cerdas (Harga Produk + Ongkir Spesifik Kota - Diskon Kupon), namun pembayaran tetap divalidasi secara manual melalui upload bukti transfer untuk kemudahan implementasi.
 

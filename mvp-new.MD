@@ -48,6 +48,7 @@ Smart Urban Farming Marketplace adalah platform jual-beli produk pertanian urban
 ### A. Alur Proses (Activity Diagram Summary)
 
 **Alur Transaksi Utama:**
+```mermaid
 graph TD
     A[Start] --> B[User Login & Pilih Produk];
     B --> C[Masuk Keranjang];
@@ -62,6 +63,7 @@ graph TD
     J --> K[Petani Verifikasi & Kirim Barang];
     K --> L[User Terima & Review];
     L --> M[End];
+````**
 
 ### B. Rule Bisnis
 1.  **Logika Ongkir:** User wajib memilih kota tujuan. Sistem mengambil harga ongkir dari tabel `cities` berdasarkan pilihan tersebut.

@@ -4,7 +4,7 @@
 
 **Nama Project:** Smart Urban Farming Marketplace  
 **Tema:** Platform E-commerce untuk Produk Pertanian Urban  
-**Mata Kuliah:** Sistem Informasi & Pemrograman Web Lanjut  
+**Mata Kuliah:** SMBDL & Pemrograman Web Lanjut  
 
 > **Catatan:** Project ini disinkronkan dengan tugas Pemrograman Web Lanjut untuk implementasi sistem end-to-end.
 

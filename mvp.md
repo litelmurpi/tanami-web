@@ -1,35 +1,4 @@
 <img src="https://r2cdn.perplexity.ai/pplx-full-logo-primary-dark%402x.png" style="height:64px;margin-right:32px"/>
-
-# bantu aku menyusun ini
-
-Baik, aku bantu menyusun dokumen sesuai format tugas FP (Final Project) kamu. Berdasarkan gambar, ada 4 poin yang harus diselesakan (minimal 4 entitas untuk poin 4). Berikut susunannya:
-
-***
-
-# LAPORAN FINAL PROJECT
-
-## Smart Urban Farming Marketplace
-
-
-***
-
-## 1. Kelompok dan Tema Project
-
-**Kelompok:**
-
-- [Nama Anggota 1] - [NIM]
-- [Nama Anggota 2] - [NIM] (jika ada)
-- [Nama Anggota 3] - [NIM] (jika ada)
-
-**Tema Project:** Smart Urban Farming Marketplace (Platform Pre-Order Produk Organik Lokal)
-
-**Sinkronisasi dengan Tugas Pemrograman Web Lanjut:**
-Project ini merupakan kelanjutan dari tugas Pemrograman Web Lanjut yang mengimplementasikan sistem marketplace berbasis Laravel 12 dengan fokus pada transaksi jual-beli produk urban farming. Sistem ini mengintegrasikan konsep advanced web development dan database management untuk menciptakan platform e-commerce yang kompleks dan fungsional.
-
-***
-
-## 2. Abstraksi Sistem Informasi
-
 ### Deskripsi Sistem
 
 Smart Urban Farming Marketplace adalah platform digital yang menghubungkan petani urban (urban farmers) dengan konsumen yang mencari produk organik segar dan lokal. Sistem ini menggunakan mekanisme pre-order untuk memastikan kesegaran produk dan mengurangi food waste, dimana konsumen dapat memesan produk sebelum masa panen tiba.

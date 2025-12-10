@@ -131,6 +131,69 @@ graph TD
     I -- Ya --> L[Waiting Verification]
 ```
 
+### **Alur Admin**
+
+```mermaid
+graph TD
+    A[Start] --> B[Login Admin]
+    B --> C{Dashboard Admin}
+    
+    %% Alur Kelola Kota & Ongkir
+    C -- Kelola Ongkir --> D[Lihat Daftar Kota]
+    D --> E{Pilih Aksi}
+    E -- Tambah Kota --> F[Input Nama Kota & Tarif]
+    E -- Edit Tarif --> G[Update Harga Ongkir]
+    F --> H[Simpan ke Database]
+    G --> H
+    
+    %% Alur Kelola Kupon
+    C -- Kelola Kupon --> I[Lihat Daftar Kupon]
+    I --> J{Pilih Aksi}
+    J -- Buat Baru --> K[Input Kode, Diskon & Expired]
+    J -- Non-aktifkan --> L[Set Status: Inactive]
+    K --> M[Simpan ke Database]
+    L --> M
+    
+    H --> C
+    M --> C
+```
+
+### **Alur Seller (Petani)**
+
+```mermaid
+graph TD
+    A[Start] --> B[Login Petani]
+    B --> C{Dashboard Petani}
+    
+    %% Alur Kelola Produk
+    C -- Kelola Produk --> D[Lihat Katalog Saya]
+    D --> E{Aksi Produk}
+    E -- Tambah --> F[Input Nama, Harga, Stok, Foto]
+    E -- Edit/Hapus --> G[Update Data Produk]
+    F --> H[Simpan ke Database]
+    G --> H
+    H --> C
+    
+    %% Alur Proses Pesanan
+    C -- Cek Pesanan --> I[Lihat Order Masuk]
+    I --> J[Pilih Order Status 'Pending']
+    J --> K[Cek Foto Bukti Transfer]
+    K --> L{Valid?}
+    
+    %% Cabang Validasi
+    L -- Tidak Valid --> M[Tolak Pesanan]
+    M --> N[Order Cancelled]
+    
+    L -- Valid --> O[Terima Pesanan]
+    O --> P[Status: Paid / Packing]
+    P --> Q[Kirim Barang]
+    Q --> R[Input Resi / Update Status 'Shipped']
+    R --> S[Selesai]
+    
+    N --> C
+    S --> C
+```
+
 ### B. Rule Bisnis
 
 #### **1. Logika Stok & Reservasi**
